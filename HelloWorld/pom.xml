@@ -135,5 +135,15 @@
             </plugins>
         </pluginManagement>
     </build>
+    <repository>
+      <id>dev-azure-com-tsmc-devops-poc-tsmc-devops-poc</id>
+      <url>https://pkgs.dev.azure.com/tsmc-devops-poc/_packaging/tsmc-devops-poc/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
 
 </project>
